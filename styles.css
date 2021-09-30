@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    background-color: hotpink;
+}
+
+#logo{
+    width: 10%;
+}
+
+.menu{
+    position: absolute;
+    top: 8%;
+    left: 12%;
+}
+
+.menu ul li{
+    display: inline-block;
+}
