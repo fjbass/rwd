@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    background-color: hotpink;
+    /* background-color: lightpink; */
 }
 
 #logo{
@@ -11,6 +11,7 @@
     position: absolute;
     top: 8%;
     left: 12%;
+    background: hotpink;
 }
 
 .menu ul li{
