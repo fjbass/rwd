@@ -18,3 +18,75 @@
 .menu ul li{
     display: inline-block;
 }
+
+.schedule{
+    background-color: rgb(255, 235, 193, .5);
+}
+
+.center th td{
+    border-width: 2px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-color:rgb(224, 122, 95);
+}
+
+.center{
+    width: 75%;
+    background-color: rgba(242, 204, 143, 0.671)
+}
+
+td, th{
+    height: 5%;
+}
+
+.sem{
+    text-transform: uppercase;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+form{
+    display: inline;
+}
+
+.top ul li{
+    display: inline;
+}
+
+.top{
+    width: 100%;
+    background: rgb(129, 178, 154);
+    padding: 1%;
+}
+
+.first{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+
+}
+
+.sch{
+    width: 20%;
+}
+
+.sem{
+    width: 10%;
+}
+
+.search{
+    width: 20%;
+}
+
+.home{
+    width: 5%;
+}
+
+.space{
+    width: 45%;
+}
