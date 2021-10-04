@@ -32,7 +32,8 @@
 
 .center{
     width: 75%;
-    background-color: rgba(242, 204, 143, 0.671)
+    background-color: rgba(242, 204, 143, 0.671);
+    border-radius: 20px;
 }
 
 td, th{
@@ -54,25 +55,23 @@ form{
     display: inline;
 }
 
-.top ul li{
-    display: inline;
-}
 
 .top{
     width: 100%;
     background: rgb(129, 178, 154);
-    padding: 1%;
+    padding: 0%;
 }
 
 .first{
     border-width: 2px;
-    border-color: black;
+    border-color:rgb(129, 178, 154);
     border-style: solid;
+    width: 100%;
 
 }
 
 .sch{
-    width: 20%;
+    width: 10%;
 }
 
 .sem{
@@ -80,11 +79,13 @@ form{
 }
 
 .search{
-    width: 20%;
+    width: 10%;
+    text-align: right;
 }
 
 .home{
     width: 5%;
+    text-align: right;
 }
 
 .space{
