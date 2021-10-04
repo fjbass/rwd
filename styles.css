@@ -19,7 +19,6 @@
     display: inline-block;
 }
 
-<<<<<<< HEAD
 .schedule{
     background-color: rgb(255, 235, 193, .5);
 }
@@ -91,7 +90,7 @@ form{
 .space{
     width: 45%;
 }
-=======
+
 .Course-Title{
     text-align: center;
     padding-block: 5px;
@@ -135,4 +134,3 @@ form{
 
 
 
->>>>>>> e935671910e45fde1a084193b57c1b78a4f8b2ac
