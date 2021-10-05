@@ -35,9 +35,9 @@ section .loggo{
 
  section .menu{
 	float: left;
-	width: 77%;
+	width: 69%;
 }
-
+/* TODO fix the site going out of the border */
 section .menu ul {
 	list-style: none;
 	padding: 0px;
