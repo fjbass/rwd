@@ -42,19 +42,19 @@
 }
 
 .schedule{
-    background-color: rgb(255, 235, 193, .5);
+    background-color:rgba(242, 204, 143, 0.671);
 }
 
 .center th td{
     border-width: 2px;
     border-style: solid;
     border-collapse: collapse;
-    border-color:rgb(224, 122, 95);
+    border-color:rgba(242, 204, 143, 0.671);
 }
 
 .center{
     width: 75%;
-    background-color: rgba(242, 204, 143, 0.671)
+    background-color: rgba(242, 204, 143, 0.671);
 }
 
 td, th{
@@ -82,15 +82,14 @@ form{
 
 .top{
     width: 100%;
-    background: rgb(129, 178, 154);
+    background: rgba(236, 71, 71, 0.548);
     padding: 1%;
 }
 
 .first{
     border-width: 2px;
     border-color: black;
-    border-style: solid;
-
+    /* border-style: solid; */
 }
 
 .sch{
