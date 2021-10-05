@@ -1,0 +1,74 @@
+header {
+	width: 100%;
+	height: 30px;
+	background-color: #25273E;
+}
+
+.MeLo{
+	height: 150px;
+	width: 100%;
+	background-color: #fff;
+	border-bottom: 10px solid #EE2050;
+	box-shadow: 0 5px 5px -5px #911331;
+}
+
+section .Logo{
+	width: 23%;
+	float: left;
+    position: relative;
+}
+
+section .loggo{
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+    transform: skew(-9deg);
+	
+	margin-left: 15%;
+	background-size: cover;
+	width: 120%;
+	height: 9em;
+	max-width: 100%;
+	
+	/* resize: both; */
+    /* width: 775%; */
+}
+
+ section .menu{
+	float: left;
+	width: 77%;
+}
+
+section .menu ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+    position: relative;
+    left: 11%;
+}
+
+section .menu ul li{
+	font-weight: bold;
+	transform: skew(-9deg);
+	width: 11%;
+	height: 100%;
+	font-size: 100%;
+	text-align: center;
+	/* display: inline-block; */
+	background-color: #fff;
+	float: left;
+	max-width: 11%;
+	max-height: 100%;
+	
+	line-height: 940%;
+}
+
+section .menu ul li:hover{
+	background-color: #EE2050;
+	color: #fff;
+}
+
+section .menu a{
+	text-shadow: none;
+	color: #000;
+	text-decoration: none;
+}
