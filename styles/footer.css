@@ -20,6 +20,8 @@ footer .pree{
 	transform: skew(-10deg);
 	box-shadow: 0px 0px 1px  #EE2050 ;
 	line-height: 40px;
+	font-size: 25px;
+	text-shadow:2px 2px#36384D;
 }
 
 footer .subb{
