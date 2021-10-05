@@ -42,19 +42,18 @@
 }
 
 .schedule{
-    background-color:rgba(242, 204, 143, 0.671);
+    background-color:white;
 }
 
-.center th td{
+.center th, center td{
     border-width: 2px;
     border-style: solid;
     border-collapse: collapse;
-    border-color:rgba(242, 204, 143, 0.671);
 }
 
 .center{
     width: 75%;
-    background-color: rgba(242, 204, 143, 0.671);
+    background-color: white;
 }
 
 td, th{
@@ -81,33 +80,41 @@ form{
 }
 
 .top{
-    width: 100%;
-    background: rgba(236, 71, 71, 0.548);
+    width: 98%;
+    background: #ac3954;
     padding: 1%;
 }
 
 .sch{
-    width: 20%;
+    width: 1%;
 }
 
 .sem{
-    width: 10%;
+    width: 5%;
+    text-align: left;
 }
 
 .search{
     width: 20%;
-}
-
-.home{
-    width: 5%;
-}
-
-.space{
-    width: 45%;
+    text-align: right;
 }
 
 .ab, .pp, .chnyb, .ep, .sb{
     text-align: center;
 }
 
+.green{
+    background-color: yellowgreen;
+}
 
+.orange{
+    background: sandybrown;
+}
+
+.yellow{
+    background-color: khaki;
+}
+
+.blue{
+    background-color: rgb(133, 194, 255);
+}
