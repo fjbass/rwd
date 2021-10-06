@@ -13,50 +13,48 @@ header {
 }
 
 section .Logo{
-	width: 23%;
+	width: 20%;
 	float: left;
-    position: relative;
+  position: relative;
 }
 
 section .loggo{
 	background-image: url("../images/logo.png");
 	background-repeat: no-repeat;
-    transform: skew(-9deg);
-	
-	margin-left: 15%;
-	background-size: cover;
-	width: 120%;
+  transform: skew(-9deg);
+	background-size: contain;
+	background-position: center;
+	width: 100%;
 	height: 9em;
 	max-width: 100%;
-	
-	/* resize: both; */
-    /* width: 775%; */
 }
 
  section .menu{
-	float: left;
-	width: 69%;
+	 float: left;
+	width: 80%;
 }
+
 /* TODO fix the site going out of the border */
 section .menu ul {
 	list-style: none;
 	padding: 0px;
 	margin: 0px;
-    position: relative;
-    left: 11%;
+	width:100%;
+	height: auto;
+  position: relative;
 }
 
 section .menu ul li{
 	font-weight: bold;
 	transform: skew(-9deg);
-	width: 11%;
+	width: 20%;
 	height: 100%;
 	font-size: 100%;
 	text-align: center;
 	/* display: inline-block; */
 	background-color: #fff;
 	float: left;
-	max-width: 11%;
+	max-width: 12%;
 	max-height: 100%;
 	
 	line-height: 940%;
