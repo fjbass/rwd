@@ -10,18 +10,16 @@
 
 .boxes td, .boxes tr
 {
-  
-    
     margin-top: 5px;
     font-size: 130%;
     border-style: double groove ;
-    border-color: darkslategrey;
+    border-color: rgb(46, 78, 78);
 }
 
 #dmaall
 {
-    background-color: lightblue;
-}
+    background-color: rgb(169, 217, 233);
+ }
 #dma
 {
     border-radius: 10%;
@@ -38,7 +36,7 @@
 }
 #sdjall
 {
-    background-color: lightcoral;
+    background-color: rgb(231, 125, 125);
 }
 
 #sdj
@@ -54,7 +52,7 @@
 }
 #rwdall
 {
-    background-color: lightseagreen;
+    background-color: rgb(34, 184, 176);
 }
 #rwd
 {
@@ -68,7 +66,7 @@
 }
 #sepall
 {
-    background-color: lightgreen;
+    background-color: rgb(142, 236, 142);
 }
 #sep
 {
@@ -79,5 +77,4 @@
 {
     height: 250px;
     border-radius: 10%;
-    
 }
