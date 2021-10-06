@@ -1,5 +1,5 @@
 *{
-    margin: 0px;
+    margin: 0;
     /* background-color: lightpink; */
 }
 
@@ -197,31 +197,7 @@ table td{
     width: 20%;
 }
 
-table td {
-    background-color:rgb(235, 235, 235);
-}
-
-table td div {
-    margin: 0 40px;
-}
-
-table td div label {
-    font-weight: bold;
-}
-
-table td div p {
-    font-size: 1.2rem;
-}
-
-table td div.left {
-    text-align: right;
-}
-
-table td div.right {
-    text-align: left;
-}
-
-table {
+table{
     text-align: center;
 }
 
@@ -255,3 +231,11 @@ table {
     left: 80%;
 }
 */
+
+.boxes{
+    background-color: transparent;
+}
+
+.wrapper{
+    background: url(greybackground.jpg);
+}
