@@ -1,51 +1,59 @@
-/*.box img
-{
-overflow: auto;
-margin: 2%;
-position: absolute;
-width: 20%;
-margin-top: 10%;
 
-float: right;
-}*/
+.course_box {
 
-.course_box
-{
-    margin: 3px;
-height: 15%;
-width: 20%;
-
+    height: 150px;
+    float: left;
+    margin: 5px;
 }
 
-#sdj
-{
-    position: relative;
-    margin: 1%;
+#sdj {
     overflow: auto;
-    border-style: groove;
-
+    margin: 5px;
+    background-color: mediumpurple;
+    border-style: solid;
+    width: 47%;
+    height: 350px;
+    float: left;
 }
+
 #sep
 {
-    position: relative;
-    margin: 1%;
     overflow: auto;
-    border-style:groove;
-float: left;
+    margin: 5px;
+    background-color: sandybrown;
+    border-style: solid;
+    height: 350px;
+    width: 47%;
+    float: right;
+    
 }
 #dma
 {
-    position: relative;
-    margin: 1%;
     overflow: auto;
-    border-style: groove;
-
+    margin: 5px;
+    background-color: darkgreen;
+    border-style: solid;
+    width: 47%;
+height: 350px;
+    float: left;
+    clear: left; 
 }
+
 #rwd
 {
-    position: relative;
-    margin: 1%;
     overflow: auto;
-    border-style: groove;
-float: left;
+    margin: 5px;
+    background-color: yellow;
+    border-style: solid;
+    width: 47%;
+    height: 350px;
+    float: right;
+    clear: right;  
 }
+
+
+
+.box
+{
+  height: 80% 
+} 
