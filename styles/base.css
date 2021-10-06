@@ -220,6 +220,11 @@ table{
     width: 100%;
 }
 
+
+.contacts-wrapper table {
+    text-align: center;
+}
+
 .contacts-wrapper table td{
     height: 50%;
     width: 20%;
@@ -251,5 +256,9 @@ table{
 }
 
 .contacts-wrapper table {
+    text-align: center;
+}
+
+.about{
     text-align: center;
 }
