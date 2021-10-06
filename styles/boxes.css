@@ -1,22 +1,22 @@
-
-.boxes td, .boxes tr
-{
-    margin-top: 5px;
-    font-size: 150%;
-    border-style: double groove ;
-    border-color: darkslategrey;
-    height: min-content;
-
-}
-
+/* Maximillian*/
 .info
 {
     padding-block: 100px;
-    background-color: rgb(213, 55, 87);
+    background-color: rgb(255, 107, 107);
     font-size: 250%;
     text-align: center ;
     border-style: groove;
 }
+
+.boxes td, .boxes tr
+{
+    margin-top: 5px;
+    font-size: 130%;
+    border-style: double groove ;
+    border-color: darkslategrey;
+}
+
+
 #dma
 {
   
@@ -34,7 +34,7 @@
     border-bottom-right-radius: 10%;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
-    border-color: ;
+  
     
 }
 
