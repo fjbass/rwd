@@ -86,16 +86,21 @@ form{
 }
 
 .sch{
-    width: 1%;
+    width: 10%;
 }
 
 .sem{
-    width: 5%;
+    width: 77.6%;
     text-align: left;
+    margin-top: 10px;
 }
 
 .search{
-    width: 20%;
+    width: 15%;
+}
+
+.container{
+    width: 120%;
     text-align: right;
 }
 
@@ -118,3 +123,36 @@ form{
 .blue{
     background-color: rgb(133, 194, 255);
 }
+
+.center td{
+    text-align: center;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+  }
+  .search-field {
+    width: 100%;
+    padding: 10px 35px 10px 15px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+  }
+  
+  .search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+  }
+  
+  .search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
