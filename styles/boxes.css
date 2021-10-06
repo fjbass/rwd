@@ -1,0 +1,59 @@
+
+.course_box {
+
+    height: 150px;
+    float: left;
+    margin: 5px;
+}
+
+#sdj {
+    overflow: auto;
+    margin: 5px;
+    background-color: mediumpurple;
+    border-style: solid;
+    width: 47%;
+    height: 350px;
+    float: left;
+}
+
+#sep
+{
+    overflow: auto;
+    margin: 5px;
+    background-color: sandybrown;
+    border-style: solid;
+    height: 350px;
+    width: 47%;
+    float: right;
+    
+}
+#dma
+{
+    overflow: auto;
+    margin: 5px;
+    background-color: darkgreen;
+    border-style: solid;
+    width: 47%;
+height: 350px;
+    float: left;
+    clear: left; 
+}
+
+#rwd
+{
+    overflow: auto;
+    margin: 5px;
+    background-color: yellow;
+    border-style: solid;
+    width: 47%;
+    height: 350px;
+    float: right;
+    clear: right;  
+}
+
+
+
+.box
+{
+  height: 80% 
+} 
