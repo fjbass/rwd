@@ -8,6 +8,15 @@
     padding-block: 5px;
 }
 
+.course-aside{
+    width: 500px;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: rgb(240, 241, 143);
+}
+
 .course-image {
     float: right;
     position:relative;
@@ -15,7 +24,7 @@
 
 .course-details{
     position: relative;
-    background-color: rgb(255, 255, 0);
+    background-color: rgba(218, 248, 183, 0.952);
     box-sizing: content-box;
     float: left;
     overflow: hidden;
@@ -27,20 +36,28 @@
 .course-sections{
     padding-top: 40px;
     padding-bottom: 10px;
+    
 }
 
 .paragraphs {
     padding:20px;
 }
 
+.paragraphs ul li {
+    list-style-type: square;
+    background: #cce5ff;
+    margin: 5px;
+}
+
 .course-table{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left:25%;
+    margin-right:15%;
     box-sizing: content-box;
     border:thin;
     border-color: rgb(128, 128, 128);
     border-style: groove;
     border-collapse: separate;
+    width: 900px;
 }
 
 .course-table td, .course-table th {
