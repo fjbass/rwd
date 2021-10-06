@@ -1,3 +1,4 @@
+
 .boxes td, .boxes tr
 {
     margin-top: 5px;
@@ -14,6 +15,7 @@
     background-color: rgb(213, 55, 87);
     font-size: 250%;
     text-align: center ;
+    border-style: groove;
 }
 #dma
 {
@@ -32,7 +34,7 @@
     border-bottom-right-radius: 10%;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
-    padding-block: 1px;
+    border-color: ;
     
 }
 
