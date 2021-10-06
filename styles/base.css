@@ -167,27 +167,29 @@ ul li{
 .form {
     display: flex;
     flex-direction: row;
-  }
-  .search-field {
+}
+
+.search-field {
     width: 100%;
     padding: 10px 35px 10px 15px;
     border: none;
     border-radius: 100px;
     outline: none;
-  }
+}
   
-  .search-button {
+.search-button {
     background: transparent;
     border: none;
     outline: none;
     margin-left: -33px;
-  }
+}
   
-  .search-button img {
+.search-button img {
     width: 20px;
     height: 20px;
     object-fit: cover;
-  }
+}
+
 img{
     width: 100%;
 }
@@ -201,41 +203,51 @@ table{
     text-align: center;
 }
 
-/*
-.contact h3{
+.contacts-wrapper{
+    background: lightpink;
+}
+
+.contacts-wrapper h1{
     text-align: center;
-    align-content: center;
-    /* width: 10%; 
 }
 
-.contact img
-{
-    width: 15%;
-    height:auto;
-    text-align:center;
-    list-style-type:none;
-    /* margin-bottom:10px;
-    display:table-cell;
-    vertical-align:bottom;
+.contacts-wrapper h4{
+    text-align: center;
 }
 
-#right img{
-    width: 15%;
-    height:auto;
-    text-align:center;
-    list-style-type:none;
-    /* margin-bottom:10px;
-    display:table-cell;
-    vertical-align:bottom;
-    position: relative;
-    left: 80%;
-}
-*/
-
-.boxes{
-    background-color: transparent;
+.contacts-wrapper img{
+    width: 100%;
 }
 
-.wrapper{
-    background: url(greybackground.jpg);
+.contacts-wrapper table td{
+    height: 50%;
+    width: 20%;
+}
+
+.contacts-wrapper table td {
+    background-color:rgb(235, 235, 235);
+}
+
+.contacts-wrapper table td div {
+    margin: 0 40px;
+}
+
+.contacts-wrapper table td div label {
+    font-weight: bold;
+}
+
+.contacts-wrapper table td div p {
+    font-size: 1.2rem;
+}
+
+.contacts-wrapper table td div.left {
+    text-align: right;
+}
+
+.contacts-wrapper table td div.right {
+    text-align: left;
+}
+
+.contacts-wrapper table {
+    text-align: center;
 }
