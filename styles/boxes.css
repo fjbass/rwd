@@ -1,10 +1,51 @@
-.box img
+/*.box img
 {
-    margin: 5%;
-position: relative;
-width: 30%;
-max-width: 100%;
-height: auto;
-float: right;
+overflow: auto;
+margin: 2%;
+position: absolute;
+width: 20%;
+margin-top: 10%;
 
+float: right;
+}*/
+
+.course_box
+{
+    margin: 3px;
+height: 15%;
+width: 20%;
+
+}
+
+#sdj
+{
+    position: relative;
+    margin: 1%;
+    overflow: auto;
+    border-style: groove;
+
+}
+#sep
+{
+    position: relative;
+    margin: 1%;
+    overflow: auto;
+    border-style:groove;
+float: left;
+}
+#dma
+{
+    position: relative;
+    margin: 1%;
+    overflow: auto;
+    border-style: groove;
+
+}
+#rwd
+{
+    position: relative;
+    margin: 1%;
+    overflow: auto;
+    border-style: groove;
+float: left;
 }
