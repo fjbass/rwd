@@ -19,9 +19,12 @@ footer .pree{
 	background-color: #EE2050;
 	transform: skew(-10deg);
 	box-shadow: 0px 0px 1px  #EE2050 ;
-	line-height: 40px;
-	font-size: 25px;
+	line-height: 100%;
+	font-size: 150%;
 	text-shadow:2px 2px#36384D;
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer .subb{
