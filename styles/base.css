@@ -208,10 +208,12 @@ table{
 
 .contacts-wrapper h1{
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 
 .contacts-wrapper h4{
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 
 .contacts-wrapper img{
@@ -237,6 +239,7 @@ table{
 
 .contacts-wrapper table td div p {
     font-size: 1.2rem;
+    font-family: 'Playfair Display', serif;
 }
 
 .contacts-wrapper table td div.left {
