@@ -197,7 +197,31 @@ table td{
     width: 20%;
 }
 
-table{
+table td {
+    background-color:rgb(235, 235, 235);
+}
+
+table td div {
+    margin: 0 40px;
+}
+
+table td div label {
+    font-weight: bold;
+}
+
+table td div p {
+    font-size: 1.2rem;
+}
+
+table td div.left {
+    text-align: right;
+}
+
+table td div.right {
+    text-align: left;
+}
+
+table {
     text-align: center;
 }
 
