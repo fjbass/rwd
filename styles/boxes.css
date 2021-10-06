@@ -18,20 +18,22 @@
 #dmaall
 {
     background-color: rgb(169, 217, 233);
- }
+}
+
 #dma
 {
     border-radius: 10%;
     font-weight: bold;
 }
+
 #dmapic
 {
     border-style: solid;
     box-sizing: border-box;
     height: 250px;
     border-radius: 10%;
-   
 }
+
 #sdjall
 {
     background-color: rgb(231, 125, 125);
@@ -42,37 +44,41 @@
     border-radius: 10%;
     font-weight: bold;
 }
+
 #sdjpic
 {
     height: 250px;
     border-radius: 10%;
-   
 }
+
 #rwdall
 {
     background-color: rgb(34, 184, 176);
 }
+
 #rwd
 {
     border-radius: 10%;
     font-weight: bold;
 }
+
 #rwdpic
 {
     height: 250px;
     border-radius: 10%;
-    
 }
+
 #sepall
 {
     background-color: rgb(142, 236, 142);
 }
+
 #sep
 {
     border-radius: 10%;
     font-weight: bold;
-   
 }
+
 #seppic
 {
     height: 250px;

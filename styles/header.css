@@ -15,13 +15,13 @@ header {
 section .Logo{
 	width: 20%;
 	float: left;
-  position: relative;
+  	position: relative;
 }
 
 section .loggo{
 	background-image: url("../images/logo.png");
 	background-repeat: no-repeat;
-  transform: skew(-9deg);
+  	transform: skew(-9deg);
 	background-size: contain;
 	background-position: center;
 	width: 100%;
@@ -30,18 +30,17 @@ section .loggo{
 }
 
  section .menu{
-	 float: left;
+	float: left;
 	width: 80%;
 }
 
-/* TODO fix the site going out of the border */
 section .menu ul {
 	list-style: none;
 	padding: 0px;
 	margin: 0px;
 	width:100%;
 	height: auto;
-  position: relative;
+  	position: relative;
 }
 
 section .menu ul li{
@@ -51,12 +50,10 @@ section .menu ul li{
 	height: 100%;
 	font-size: 100%;
 	text-align: center;
-	/* display: inline-block; */
 	background-color: #fff;
 	float: left;
 	max-width: 12%;
 	max-height: 100%;
-	
 	line-height: 940%;
 }
 
