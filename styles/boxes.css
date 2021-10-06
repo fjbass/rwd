@@ -1,27 +1,18 @@
-.boxes
+.boxes td, .boxes tr
 {
-    margin: 5px;
+    margin-top: 5px;
     font-size: 150%;
+    border-style: groove;
 }
 
-#dma
+.info
 {
-    border-style: double;
+    padding-block: 100px;
+    background-color: rgb(213, 55, 87);
+    font-size: 250%;
+    text-align: center ;
 }
 
-#sdj
-{
-    border-style: double;
-}
 
-#rwd
-{
-    border-style: double;
-}
-
-#sep
-{
-    border-style: double;
-}
 
 
