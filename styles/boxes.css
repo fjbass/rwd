@@ -2,7 +2,10 @@
 {
     margin-top: 5px;
     font-size: 150%;
-    border-style: groove;
+    border-style: double groove ;
+    border-color: darkslategrey;
+    height: min-content;
+
 }
 
 .info
@@ -12,7 +15,72 @@
     font-size: 250%;
     text-align: center ;
 }
+#dma
+{
+  
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    padding-block: 1px;
+}
+#dmapic
+{
+    box-sizing: border-box;
+    height: 250px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    padding-block: 1px;
+    
+}
 
+#sdj
+{
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+#sdjpic
+{
+    height: 250px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
 
+#rwd
+{
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
 
+}
+#rwdpic
+{
+    height: 250px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
 
+#sep
+{
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+#seppic
+{
+    height: 250px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
