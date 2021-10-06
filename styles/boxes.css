@@ -1,62 +1,27 @@
-
-.course_box {
-
-    height: 300px;
-    width: 468px;
-    float: left;
-    margin: 5px;
-    
-}
-
-#sdj {
-    overflow: auto;
-    margin: 5px;
-    background-color: mediumpurple;
-    border-style: groove;
-    width: 25%;
-    height: 400px;
-    float: left;
-}
-#sdj p
+.boxes
 {
-    font-family: 'Roboto', sans-serif;  
+    margin: 5px;
+    font-size: 150%;
 }
 
-#sep
-{
-    overflow: auto;
-    margin: 5px;
-    margin-top: 10px;
-    background-color: sandybrown;
-    border-style: groove;
-    height: 350px;
-    width: 25%;
-   
-    
-}
 #dma
 {
-    overflow: auto;
-    margin: 5px;
-    background-color: darkgreen;
-    border-style: groove;
-    width: 25%;
-height: 350px;
-    float: left;
-    clear: left; 
+    border-style: double;
+}
+
+#sdj
+{
+    border-style: double;
 }
 
 #rwd
 {
-    overflow: auto;
-    margin: 5px;
-    background-color: yellow;
-    border-style: groove;
-    width: 25%;
-    height: 350px;
-  
-    clear: right;  
+    border-style: double;
 }
 
+#sep
+{
+    border-style: double;
+}
 
 
