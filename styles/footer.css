@@ -1,5 +1,5 @@
 footer{
-	margin-top: 10%;
+	margin-top: 5%;
 	padding-top: 60px;
 	height: 200px;
 	width: 100%;
@@ -38,6 +38,12 @@ footer .subb{
 	text-align: center;
 	color: #fff;
 	line-height: 40px;
+}
+
+.subb p{
+	position: relative;
+	top: 20%;
+	vertical-align: center;
 }
 
 footer .blockuri{
