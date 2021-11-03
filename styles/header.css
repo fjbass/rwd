@@ -1,49 +1,22 @@
-header {
-	width: 100%;
-	height: 30px;
-	background-color: #25273E;
-}
-
-.MeLo{
-	height: 150px;
+#MeLo {
 	width: 100%;
 	background-color: #fff;
 	border-bottom: 10px solid #EE2050;
 	box-shadow: 0 5px 5px -5px #911331;
 }
 
-section .Logo{
-	width: 20%;
-	float: left;
-  	position: relative;
-}
-
-section .loggo{
+.loggo {
 	background-image: url("../images/logo.png");
 	background-repeat: no-repeat;
-  	transform: skew(-9deg);
+  	/* transform: skew(-1.5deg); */
 	background-size: contain;
 	background-position: center;
 	width: 100%;
-	height: 9em;
+	height: 9.4em;
 	max-width: 100%;
 }
 
- section .menu{
-	float: left;
-	width: 80%;
-}
-
-section .menu ul {
-	list-style: none;
-	padding: 0px;
-	margin: 0px;
-	width:100%;
-	height: auto;
-  	position: relative;
-}
-
-section .menu ul li{
+.header-colon {
 	font-weight: bold;
 	transform: skew(-9deg);
 	width: 20%;
@@ -51,18 +24,45 @@ section .menu ul li{
 	font-size: 100%;
 	text-align: center;
 	background-color: #fff;
-	float: left;
 	max-width: 12%;
 	max-height: 100%;
 	line-height: 940%;
 }
 
-section .menu ul li:hover{
+@media (max-width:1200px){
+	.header-colon {
+		display: block;
+		line-height:940%;
+	}
+}
+
+@media (max-width:1024px){
+	.header-colon {
+		display: block;
+		line-height:400%;
+	}
+}
+
+@media (max-width:768px){
+	.header-colon {
+		display: block;
+		line-height:300%;
+	}
+}
+
+@media (max-width:480px){
+	.header-colon {
+		display: block;
+		line-height:250%;
+	}
+}
+
+.header-colon:hover {
 	background-color: #EE2050;
 	color: #fff;
 }
 
-section .menu a{
+.header-colon a {
 	text-shadow: none;
 	color: #000;
 	text-decoration: none;

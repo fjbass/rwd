@@ -1,19 +1,19 @@
-footer{
+footer {
 	margin-top: 8%;
 	padding-top: 5%;
-	height: 200px;
+	height: 100%;
 	width: 100%;
 	background-color:#36384D;
 	position: relative;
 	color: #fff;
 }
 
-footer .pree{
-	position: absolute;
-	top: -15%;
+footer .pree {
+	position: relative;
 	left: 10%;
+	margin-top: -6.5%;
 	width: 80%;
-	height: 30%;
+	height: 25%;
 	color: #fff;
 	text-align: center;
 	background-color: #EE2050;
@@ -22,7 +22,6 @@ footer .pree{
 	line-height: 100%;
 	font-size: 150%;
 	text-shadow:2px 2px#36384D;
-	display: flex;
     align-items: center;
     justify-content: center;
 	font-size: 100%;
@@ -33,50 +32,48 @@ footer .subb{
 	position: absolute;
 	top: 100%;
 	width: 100%;
-	height: 25%;
+	height: 20%;
+	left: 0.01%;
 	background-color: #EE2050;
 	box-shadow: 0px 0px 1px  #EE2050 ;
 	text-align: center;
 	color: #fff;
-	line-height: 200%;
+	line-height: 100%;
 }
 
-.subb p{
+.subb p {
 	position: relative;
 	top: 20%;
 	vertical-align: center;
 }
 
-footer .blockuri{
+footer .blocks {
 	font-family: 'Roboto', sans-serif;
 }
 
-footer h2{
+footer h2 {
 	text-shadow: 3px 3px #111;
 }
 
-footer .bl{
+footer .bl {
 	padding: 0px 10px;
 }
 
-footer .middle1{
-	width: 40%;
+footer .middle1 {
+	/* width: 40%; */
 	height: auto;
-	float: left;
 	text-shadow: 2px 2px 0px #111;
 }
 
-footer .middle2{
-	width: 30%;
+footer .middle2 {
+	/* width: 30%; */
 	height: auto;
-	float: left;
 	text-shadow: 2px 2px 0px #111;
 }
 
-footer .middle3{
-	width: 20%;
+footer .middle3 {
+	/* width: 20%; */
 	height: auto;
-	float: left;
 	text-shadow: 2px 2px 0px #111;
 }
 
@@ -86,7 +83,7 @@ footer .middle3 a {
 	text-shadow: 2px 2px 0px #111;
 }
 
-footer .middle3 a:hover{
+footer .middle3 a:hover {
 	text-shadow: 2px 2px 0px #111;
 	text-decoration: none;
 	color: #EE2050;
