@@ -326,59 +326,66 @@ table{
     font-size: 120%;
 }
 
-.contacts-wrapper h1{
+.contacts-headline h1{
     text-align: center;
     font-family: 'Playfair Display', serif;
 }
 
-.contacts-wrapper h4{
+.contacts-headline h4{
     text-align: center;
     font-family: 'Playfair Display', serif;
 }
+
+.contacts-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "aiga max vlad diana";
+}
+
+#aiga{
+    grid-column: 1/1;
+    grid-row: 1;
+    grid-area: aiga;
+}
+
+#max{
+    grid-column: 2/2;
+    grid-row: 1;
+    grid-area: max;
+}
+
+#vlad{
+    grid-column: 3/3;
+    grid-row:1;
+    grid-area: vlad;
+}
+
+#diana{
+    grid-column: 4/4;
+    grid-row: 1;
+    grid-area: diana;
+}
+
+@media only screen and (max-width:425px) {
+    .contacts-wrapper { 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "aiga max"
+        "vlad diana"
+    }
+  } 
+
+
 
 .contacts-wrapper img{
-    width: 100%;
+    width: 60%;
+    position: relative;
 }
 
-
-.contacts-wrapper table {
-    text-align: center;
-}
-
-.contacts-wrapper table td{
-    height: 50%;
-    width: 20%;
-}
-
-.contacts-wrapper table td {
-    background-color:rgb(235, 235, 235);
-}
-
-.contacts-wrapper table td div {
-    margin: 0 40px;
-}
-
-.contacts-wrapper table td div label {
-    font-weight: bold;
-}
-
-.contacts-wrapper table td div p {
-    font-size: 1.2rem;
-    font-family: 'Playfair Display', serif;
-}
-
-.contacts-wrapper table td div.left {
-    text-align: right;
-}
-
-.contacts-wrapper table td div.right {
-    text-align: left;
-}
-
-.contacts-wrapper table {
-    text-align: center;
-}
 
 .about{
-    text-align: center;
+    text-align: left;
 }
