@@ -8,6 +8,7 @@
   width: 75%;
   height: 100%;
 }
+
 /*.carousel-item_active {
   width: 100%;
   height: 100%;
@@ -22,12 +23,14 @@
   font-size: 115%;
   text-align: center;
   background-color: rgb(211, 211, 211);
+ 
 
 }
 
 .info {
   margin-top: 15%;
   font-size: 200%;
+ 
 }
 
 .pic1 {
