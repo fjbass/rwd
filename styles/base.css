@@ -13,7 +13,6 @@
     margin-left: 15px;
     float: right;
     font-style: italic;
-    background-color: rgb(240, 241, 143);
 }
 
 .course-image {
@@ -25,20 +24,24 @@
     position: relative;
     background-color: rgba(218, 248, 183, 0.952);
     box-sizing: content-box;
-    float: left;
+    float: right;
     overflow: hidden;
     border-radius: 5px;
     border-color: rgb(128, 128, 128);
     border-style: groove;
+    padding: 0.25em 0.5em;
 }
 
 .course-sections{
     padding-top: 40px;
     padding-bottom: 10px;
+    text-align: left;
+    position: relative;
 }
 
 .paragraphs {
     padding:20px;
+    text-align: left;
 }
 
 .paragraphs ul li {
@@ -47,29 +50,143 @@
     margin: 5px;
 }
 
-.course-table{
-    margin-left:25%;
-    margin-right:15%;
-    box-sizing: content-box;
-    border:thin;
-    border-color: rgb(128, 128, 128);
-    border-style: groove;
-    border-collapse: separate;
-    width: 900px;
-}
-
-.course-table td, .course-table th {
-    border: 1px solid rgb(255, 250, 250);
-    padding: 8px;
+.first-button {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    float: left;
 }
   
-.course-table tr:nth-child(even){background-color: #e48d8d;}
-  
-.course-table tr:hover {background-color: #ddd;}
-
-.table-sections{
-    padding-block: 20px;
+.first-button:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
 }
+  
+.second-button {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    float: right;
+}
+  
+.second-button:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
+
+.third-button {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 6.25em;
+    margin: 0 auto; 
+    display: block;
+}
+  
+.third-button:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-template-rows: auto auto ;
+    grid-template-areas: 
+    "main aside"
+    "buttons buttons";
+}
+
+#main{
+    background-color: rgb(186,85,211);
+    grid-column: 1/1;
+    grid-row:1;
+    grid-area: main;
+}
+    
+
+#aside{
+    background-color: rgb(240, 241, 143);
+    grid-column: 2/2;
+    grid-row:1;
+    grid-area: aside;
+}
+
+#buttons{
+    background-color:rgb(133, 194, 255);
+    grid-column: 1/2;
+    grid-row: 2;
+    grid-area: buttons;
+    
+}
+
+ol {
+    list-style: none; 
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    text-align: left;
+  }
+  
+    ol a {
+    position:relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    margin: .5em 0;
+    background: rgb(240, 230, 140);
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: .3s ease-out;
+  }
+ 
+@media only screen and (max-width:425px) {
+    .container { 
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr 1fr .25fr;
+        grid-template-areas:
+        "main"
+        "aside"
+        "buttons";
+    }
+  } 
+
+
 
 .schedule{
     background-color:rgb(255, 255, 255);
