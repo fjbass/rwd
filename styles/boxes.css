@@ -1,85 +1,120 @@
-.info
-{
-    padding-block: 75px;
-    background-color:rgb(211, 211, 211);
-    font-size: 250%;
-    text-align: center ;
-    border-style: groove;
+.carousel-inner {
+  background-color: rgb(47, 79, 79);
+}
+.carousel-inner img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 100%;
 }
 
-.boxes td, .boxes tr
-{
-    margin-top: 5px;
-    font-size: 130%;
-    border-style: double groove ;
-    border-color: rgb(46, 78, 78);
+/*.carousel-item_active {
+  width: 100%;
+  height: 100%;
 }
 
-#dmaall
-{
-    background-color: rgb(169, 217, 233);
+.carousel-item {
+  width: 100%;
+  height:50%;
+}*/
+
+.row {
+  font-size: 115%;
+  text-align: center;
+  background-color: rgb(211, 211, 211);
+ 
+
 }
 
-#dma
-{
-    border-radius: 10%;
-    font-weight: bold;
+.info {
+  margin-top: 15%;
+  font-size: 200%;
+ 
 }
 
-#dmapic
-{
-    box-sizing: border-box;
-    height: 250px;
-    border-radius: 10%;
+.pic1 {
+    margin-top: 3%;
+}
+.pic2 {
+    margin-top: 3%;
+}
+.pic3 {
+  margin-left: 1%;
+  width: 103%;
+  height: 68%;
 }
 
-#sdjall
-{
-    background-color: rgb(231, 125, 125);
+.pic4 {
+  margin-left: 3%;
+  width: 104%;
+  height: 68%;
 }
 
-#sdj
-{
-    border-radius: 10%;
-    font-weight: bold;
+/* .boxes td,
+.boxes tr {
+    
+  margin-top: 5px;
+  font-size: 130%;
+  border-style: double groove;
+  border-color: rgb(46, 78, 78);
 }
 
-#sdjpic
-{
-    height: 250px;
-    border-radius: 10%;
+#dmaall {
+  background-color: rgb(169, 217, 233);
 }
 
-#rwdall
-{
-    background-color: rgb(34, 184, 176);
+#dma {
+    width: 25%;
+    position: relative;
+  border-radius: 10%;
+  font-weight: bold;
 }
 
-#rwd
-{
-    border-radius: 10%;
-    font-weight: bold;
+#dmapic {
+  box-sizing: border-box;
+  height: 250px;
+  border-radius: 10%;
 }
 
-#rwdpic
-{
-    height: 250px;
-    border-radius: 10%;
+#sdjall {
+  background-color: rgb(231, 125, 125);
 }
 
-#sepall
-{
-    background-color: rgb(142, 236, 142);
+#sdj {
+  border-radius: 10%;
+  font-weight: bold;
 }
 
-#sep
-{
-    border-radius: 10%;
-    font-weight: bold;
+#sdjpic {
+  height: 250px;
+  border-radius: 10%;
 }
 
-#seppic
-{
-    height: 250px;
-    border-radius: 10%;
+#rwdall {
+  background-color: rgb(34, 184, 176);
 }
+
+#rwd {
+  border-radius: 10%;
+  font-weight: bold;
+}
+
+#rwdpic {
+  height: 250px;
+  border-radius: 10%;
+}
+
+#sepall {
+  background-color: rgb(142, 236, 142);
+}
+
+#sep {
+  border-radius: 10%;
+  font-weight: bold;
+}
+
+#seppic {
+  height: 250px;
+  border-radius: 10%;
+}*/
