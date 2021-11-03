@@ -2,6 +2,14 @@
     margin: 0;
 }
 
+#notAMEME{
+    position: relative;
+    left: 32%;
+    transform: translate(0, -50%);
+    color: rgb(0, 0, 255);
+    font-size: 120%;
+}
+
 .course-title{
     text-align: center;
     padding-block: 5px;
@@ -186,125 +194,6 @@ ol {
     }
   } 
 
-
-
-/* .schedule{
-    background-color:rgb(255, 255, 255);
-}
-
-.center th, center td{
-    border-width: 2px;
-    border-style: solid;
-    border-collapse: collapse;
-}
-
-.center{
-    width: 75%;
-    background-color: rgb(255, 255, 255);
-}
-
-td, th{
-    height: 5%;
-}
-
-.sem{
-    text-transform: uppercase;
-}
-
-.center{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-form{
-    display: inline;
-}
-
-.top ul li{
-    display: inline;
-}
-
-.top{
-    width: 98%;
-    background: #ac3954;
-    padding: 1%;
-}
-
-.sch{
-    width: 10%;
-}
-
-.sem{
-    width: 77.6%;
-    text-align: left;
-    margin-top: 10px;
-}
-
-.search{
-    width: 15%;
-}
-
-.container{
-    width: 120%;
-    text-align: right;
-}
-
-.ab, .pp, .chnyb, .ep, .sb{
-    text-align: center;
-}
-
-.green{
-    background-color: rgb(154, 205, 50);
-}
-
-.orange{
-    background: rgb(244, 164, 96);
-}
-
-.yellow{
-    background-color: rgb(240, 230, 140);
-}
-
-.blue{
-    background-color: rgb(133, 194, 255);
-}
-
-.center td{
-    text-align: center;
-}
-
-ul li{
-    list-style-type: none;
-}
-
-.form {
-    display: flex;
-    flex-direction: row;
-}
-
-.search-field {
-    width: 100%;
-    padding: 10px 35px 10px 15px;
-    border: none;
-    border-radius: 100px;
-    outline: none;
-}
-  
-.search-button {
-    background: transparent;
-    border: none;
-    outline: none;
-    margin-left: -33px;
-}
-  
-.search-button img {
-    width: 20px;
-    height: 20px;
-    object-fit: cover;
-} */
-
 img{
     width: 100%;
 }
@@ -316,14 +205,6 @@ table td{
 
 table{
     text-align: center;
-}
-
-#notAMEME{
-    position: relative;
-    left: 32%;
-    transform: translate(0, -50%);
-    color: rgb(0, 0, 255);
-    font-size: 120%;
 }
 
 .contacts-headline h1{
@@ -370,15 +251,15 @@ table{
 
 @media only screen and (max-width:425px) {
     .contacts-wrapper { 
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         grid-template-areas:
-        "aiga max"
-        "vlad diana"
+        "aiga"
+        "max"
+        "vlad"
+        "diana";
     }
-  } 
-
-
+} 
 
 .contacts-wrapper img{
     width: 60%;
