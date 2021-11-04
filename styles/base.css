@@ -270,3 +270,7 @@ table{
 .about{
     text-align: left;
 }
+
+.baseColor{
+    background-color: hotpink;
+}
